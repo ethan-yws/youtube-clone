@@ -1,0 +1,30 @@
+.header-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+    height: 50px;
+}
+
+.icons-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 1%;
+}
+
+.youtube-icon {
+    height: 20px;
+    object-fit: contain;
+    padding-left: 1%;
+}
+
+.user-input {
+
+}
+
+.search-icon {
+    border: 1px solid black;
+
+}
