@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import "./styles/Sidebar.css";
 
 function Sidebar() {
@@ -6,7 +6,7 @@ function Sidebar() {
         <div className="sidebar">
             <p>I am sidebar</p>
         </div>
-    )
+    );
 }
 
-export default Sidebar
+export default Sidebar;
