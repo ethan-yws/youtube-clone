@@ -1,4 +1,14 @@
 .sidebar {
-    flex: 0.15;
-    border: 1px solid lightgrey;
+    flex: 0.2;
+}
+
+hr {
+    margin-right: 10px;
+}
+
+.subs__title {
+    padding: 1px 20px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #606060;
 }

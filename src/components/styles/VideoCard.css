@@ -1,0 +1,10 @@
+.videoCard {
+    padding: 20px 20px;
+    padding-bottom: 0;
+}
+
+.video__title {
+    font-size: 14px;
+    font-weight: 600;
+    max-width: 270px;
+}

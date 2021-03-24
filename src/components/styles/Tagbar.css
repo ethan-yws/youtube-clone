@@ -1,0 +1,6 @@
+.tagbar {
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    background-color: white !important;
+    display: flex;
+}

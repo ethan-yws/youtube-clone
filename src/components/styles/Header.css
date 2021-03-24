@@ -7,8 +7,12 @@
     top: 0;
     z-index: 100;
     background-color: white;
-    border-bottom: 1px solid lightgray;
-    height: 40px;
+    /*border-bottom: 1px solid lightgrey;*/
+    height: 43px;
+}
+
+.header-left {
+    margin-left: 15px;
 }
 
 .youtube-icon {
@@ -21,7 +25,7 @@
     display: flex;
     align-items: center;
     width: 40%;
-    border: 1px solid black;
+    border: 1px solid lightgrey;
 }
 
 .user-input > input {
@@ -30,17 +34,22 @@
 }
 
 .search-icon {
-    width: 50px !important;
+    width: 60px !important;
     background-color: #fafafa;
-    border: 1px solid lightgray;
+    border-left: 1px solid lightgray;
     color: gray;
+}
+
+.search-icon:hover {
+    background-color: rgb(240, 240, 240);
 }
 
 .icons-right {
     display: flex;
     align-items: center;
+    color: #606060;
 }
 
 .icon-right {
-    margin-right: 8px;
+    margin-right: 20px;
 }

@@ -1,17 +1,11 @@
 import React from "react";
+import "./styles/VideoCard.css";
 
-function VideoCard() {
+function VideoCard({ coverImage, avatar, title, channel, views, timestamp }) {
     return (
-        <div>
-            <iframe
-                title="ytb"
-                width="320"
-                height="240"
-                src="https://www.youtube.com/embed/NT299zIk2JY"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-            ></iframe>
+        <div className="videoCard">
+            <img src={coverImage} width="320" height="180" />
+            <p className="video__title">{title}</p>
         </div>
     );
 }
