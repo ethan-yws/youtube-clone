@@ -5,7 +5,7 @@ import Tag from "./Tag";
 function Tagbar() {
     return (
         <div className="tagbar">
-            <Tag title="All" />
+            <Tag selected title="All" />
             <Tag title="News" />
             <Tag title="Tech" />
             <Tag title="Sports" />

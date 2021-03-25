@@ -1,10 +1,20 @@
 .videoCard {
-    padding: 20px 20px;
-    padding-bottom: 0;
+    margin-right: 50px;
+    width: 270px;
+}
+
+.channel__icon {
+    color: #606060;
+    margin-top: 10px;
 }
 
 .video__title {
     font-size: 14px;
     font-weight: 600;
-    max-width: 270px;
+    margin-top: 12px;
+    margin-left: 8px;
+}
+
+.channel__info {
+    display: flex;
 }
